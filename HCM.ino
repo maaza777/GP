@@ -9,6 +9,7 @@
 
 /************************* DHT Sensor Setup *********************************/
 
+
 #define DHTPIN            18     // Digital pin connected to the DHT sensor
 #define DHTTYPE           DHT11  // Type of DHT Sensor, DHT11 or DHT22
 DHT dht(DHTPIN, DHTTYPE);
