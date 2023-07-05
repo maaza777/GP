@@ -6,6 +6,7 @@
 #include <DallasTemperature.h>
 #include <HTTPClient.h>
 #include <DHT.h>
+
 /************************* DHT Sensor Setup *********************************/
 
 #define DHTPIN            18     // Digital pin connected to the DHT sensor
