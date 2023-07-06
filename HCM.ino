@@ -92,7 +92,7 @@ void setup() {
 }
 void loop() {
   server.handleClient();
-/////db
+
   HTTPClient http;//--> Declare object of class HTTPClient.
   int httpCode;     //--> Variables for HTTP return code.
   postData = "id=esp32_01";
@@ -106,7 +106,7 @@ void loop() {
   Serial.print("payload  : ");
   Serial.println(payload);  //--> Print request response payload   
   http.end();  //--> Close connection
-///db
+
   
   Serial.println("---------------");
 
@@ -166,7 +166,7 @@ void loop() {
     Serial.println("---------------");
     delay(4000);
   }
-/////db
+
   postData = "id=esp32_01";
   postData += "&BPM=" + String(BPM);
   postData += "&Spo=" + String(SpO2);
@@ -190,7 +190,7 @@ void loop() {
 
 
   
-}///db
+}
  
 void handle_OnConnect() {
   
