@@ -1,4 +1,4 @@
-Health Care Monitoring System(IoT)![image](https://github.com/maaza777/GP/assets/81826673/341c8911-5804-4b53-aca5-641536548a6e)
+Health Care Monitoring System(IoT) ![image](https://github.com/maaza777/GP/assets/81826673/341c8911-5804-4b53-aca5-641536548a6e)
 
 We used C++ Language to write the code that will perform the functionality of the system.!
 
